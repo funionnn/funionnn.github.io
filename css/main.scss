@@ -1,0 +1,60 @@
+---
+---
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+
+
+
+.pull-left, .pull-right {
+  width: 25%;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.full-quote {
+  width: 100%;
+}
+
+.wide-left {
+  width: 75%;
+  float: left;
+}
+
+.wide-right {
+  width: 75%;
+  float: right;
+}
+
+p {
+  display: block;
+  margin: 0 auto 1% auto;
+  width: 50%;
+}

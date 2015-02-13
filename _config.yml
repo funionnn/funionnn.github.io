@@ -1,0 +1,6 @@
+name: Your New Jekyll Site
+markdown: redcarpet
+pygments: true
+sass:
+    sass_dir: _scss
+    style: :compressed
