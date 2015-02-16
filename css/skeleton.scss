@@ -10,9 +10,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
+  font: 14px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,35 +24,49 @@ a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
 
+$margin: 1%;
+$column: 50% - (2 * $margin);
+$narrow-column: ($column / 2)  - 2 * $margin;
+$wide-column: ($column / 2 + $column) - 2 * $margin;
+$double-wide-column: 100% - 2 * $margin;
+
+@mixin column {
+  margin: 2%;
+}
 
 .pull-left, .pull-right {
-  width: 25%;
+  width: $narrow-column;
 }
 
 .pull-left {
+  @include column;
   float: left;
 }
 
 .pull-right {
+  @include column;
   float: right;
 }
 
 .full-quote {
-  width: 100%;
+  @include column;
+  width: $double-wide-column;
 }
 
 .wide-left {
-  width: 75%;
+  @include column;
+  width: $wide-column;
   float: left;
 }
 
 .wide-right {
-  width: 75%;
+  @include column;
+  width: $wide-column;
   float: right;
 }
 
 p {
+  margin: 2px auto;
   display: block;
-  margin: 0 auto 1% auto;
-  width: 50%;
+  width: $column;
 }
