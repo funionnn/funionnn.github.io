@@ -3,21 +3,32 @@
 
 @import "variables";
 
-@media (max-width: $media-small) {
+@media (max-width: $media-large) {
 
   body {
-    font-size: 18px;
+    font-size: 20px;
   }
 
+  h1 {
+    font-size: 36px;
+  }
+
+  .pull-right, .pull-left, .double-wide, .wide-right, .wide-left {
+    font-size: 28px;
+  }
 }
 
-@media (min-width: $media-small + 1) {
+@media (min-width: $media-large + 1) {
 
   body {
     font-size: 2vw;
   }
 
   h1 {
-  font-size: 4vw;
+    font-size: 4vw;
+  }
+
+  .pull-right, .pull-left, .double-wide, .wide-right, .wide-left {
+    font-size: 3vw;
   }
 }
