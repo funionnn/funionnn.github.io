@@ -1,8 +1,9 @@
 ---
 ---
 
+@import "variables";
 
-@media (max-width: 760px) {
+@media (max-width: $media-small) {
 
   body {
     font-size: 18px;
@@ -10,9 +11,7 @@
 
 }
 
-
-
-@media (min-width: 761px) {
+@media (min-width: $media-small + 1) {
 
   body {
     font-size: 2vw;
@@ -20,5 +19,5 @@
 
   h1 {
   font-size: 4vw;
-}
+  }
 }
