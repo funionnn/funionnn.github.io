@@ -1,6 +1,24 @@
 ---
 ---
 
-body {
-  font-size: 10.5vmi;
+
+@media (max-width: 760px) {
+
+  body {
+    font-size: 18px;
+  }
+
+}
+
+
+
+@media (min-width: 761px) {
+
+  body {
+    font-size: 2vw;
+  }
+
+  h1 {
+  font-size: 4vw;
+}
 }

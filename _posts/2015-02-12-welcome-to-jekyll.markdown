@@ -30,6 +30,10 @@ Pull-right
 
 Proin a dolor mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent eget malesuada mi. Sed hendrerit vulputate justo. Phasellus commodo tristique mi id euismod. In purus massa, facilisis vitae sem at, tristique rutrum orci. Vestibulum a vehicula neque, eleifend feugiat ex. Integer sed interdum massa. Suspendisse tristique erat non efficitur finibus. Fusce sagittis rhoncus justo ut accumsan. Aliquam venenatis molestie orci. Sed vitae tortor a elit aliquet viverra. Pellentesque accumsan dui eu magna dictum, sit amet tincidunt neque dapibus.
 
+<div class="pull-right">
+Pull-right
+ Aliquam erat volutpat. Aliquam risus arcu, pharetra in dui in, congue sodales purus. Quisque lorem risus, convallis sed velit vel, hendrerit ultrices diam. Quisque a lectus ac nisl commodo ullamcorper. Nullam nec purus sapien.
+</div>
 <div class="wide-left">
 Pull-right
  Aliquam erat volutpat. Aliquam risus arcu, pharetra in dui in, congue sodales purus. Quisque lorem risus, convallis sed velit vel, hendrerit ultrices diam. Quisque a lectus ac nisl commodo ullamcorper. Nullam nec purus sapien.
