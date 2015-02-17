@@ -33,7 +33,7 @@ $large-wide-column: ($large-column / 2 + $large-column) - 2 * $margin;
 $large-double-wide-column: 100% - 2 * $margin;
 
 @mixin column {
-  margin: 2 * $margin;
+  margin: $margin;
 }
 
 @media (max-width: 760px) {
@@ -44,7 +44,7 @@ $large-double-wide-column: 100% - 2 * $margin;
     width: $small-column;
   }
 
-  .full-qoute {
+  .double-wide {
     @include column;
     width: $small-column;
   }
@@ -84,7 +84,7 @@ $large-double-wide-column: 100% - 2 * $margin;
     float: right;
   }
 
-  .full-quote {
+  .double-wide {
     @include column;
     width: $large-double-wide-column;
   }

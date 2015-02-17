@@ -23,8 +23,7 @@ Curabitur pretium mi est, a rhoncus arcu vehicula ut. Sed congue, mi eu malesuad
 
 Curabitur pretium mi est, a rhoncus arcu vehicula ut. Sed congue, mi eu malesuada euismod, dolor nulla elementum orci, sit amet eleifend ex nisi non arcu. Maecenas in nisl et nibh scelerisque luctus. Aliquam nec ante eget lectus ornare facilisis. Pellentesque consectetur ut lectus sed finibus. Aliquam erat volutpat. Aliquam risus arcu, pharetra in dui in, congue sodales purus. Quisque lorem risus, convallis sed velit vel, hendrerit ultrices diam. Quisque a lectus ac nisl commodo ullamcorper. Nullam nec purus sapien.
 
-<div class="full-qoute">
-Pull-right
+<div class="double-wide">
  Aliquam erat volutpat. Aliquam risus arcu, pharetra in dui in, congue sodales purus. Quisque lorem risus, convallis sed velit vel, hendrerit ultrices diam. Quisque a lectus ac nisl commodo ullamcorper. Nullam nec purus sapien.
 </div>
 
