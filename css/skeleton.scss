@@ -29,7 +29,7 @@ a:visited { color: #a0a; }
   margin: $margin;
 }
 
-@media (max-width: 760px) {
+@media #{$media-small} {
 
   .pull-left, .pull-right {
     @include column;
@@ -61,39 +61,49 @@ a:visited { color: #a0a; }
   }
 }
 
-@media (max-width: 760px) {
+@media #{$media-medium}{
 
   .pull-left, .pull-right {
+    width: $medium-narrow-column;
+  }
+
+  .pull-left {
     @include column;
-    margin: 2px auto;
-    width: $small-column;
+    float: right;
+    clear: both;
+  }
+
+  .pull-right {
+    @include column;
+    float: right;
+    clear: both;
   }
 
   .double-wide {
     @include column;
-    width: $small-column;
+    width: $medium-double-wide-column;
   }
 
   .wide-left {
     @include column;
-    width: $small-column;
-    float: left;
+    width: $medium-wide-column;
+    float: right;
   }
 
   .wide-right {
     @include column;
-    width: $small-column;
+    width: $medium-wide-column;
     float: right;
   }
 
   .center, p {
-    margin: 2px auto;
+    margin: $margin auto $margin $margin;
     display: block;
-    width: $small-column;
+    width: $medium-column;
   }
 }
 
-@media (min-width: 951px) {
+@media #{$media-large} {
 
   .pull-left, .pull-right {
     width: $large-narrow-column;
