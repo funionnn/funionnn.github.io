@@ -2,5 +2,5 @@ name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
 sass:
-    sass_dir: _scss
-    style: :compressed
+  sass_dir: css/_scss
+  style: :compressed

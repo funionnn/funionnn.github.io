@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "variables";
+
 * {
   margin: 0;
   padding: 0;
@@ -22,15 +24,6 @@ p { margin: 1em 0; }
 a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
-
-
-$small-column: 100%;
-
-$margin: 1%;
-$large-column: 50% - (2 * $margin);
-$large-narrow-column: ($large-column / 2)  - 2 * $margin;
-$large-wide-column: ($large-column / 2 + $large-column) - 2 * $margin;
-$large-double-wide-column: 100% - 2 * $margin;
 
 @mixin column {
   margin: $margin;
@@ -68,7 +61,39 @@ $large-double-wide-column: 100% - 2 * $margin;
   }
 }
 
-@media (min-width: 761px) {
+@media (max-width: 760px) {
+
+  .pull-left, .pull-right {
+    @include column;
+    margin: 2px auto;
+    width: $small-column;
+  }
+
+  .double-wide {
+    @include column;
+    width: $small-column;
+  }
+
+  .wide-left {
+    @include column;
+    width: $small-column;
+    float: left;
+  }
+
+  .wide-right {
+    @include column;
+    width: $small-column;
+    float: right;
+  }
+
+  .center, p {
+    margin: 2px auto;
+    display: block;
+    width: $small-column;
+  }
+}
+
+@media (min-width: 951px) {
 
   .pull-left, .pull-right {
     width: $large-narrow-column;

@@ -1,0 +1,7 @@
+$small-column: 100%;
+
+$margin: 1%;
+$large-column: 50% - (2 * $margin);
+$large-narrow-column: ($large-column / 2)  - 2 * $margin;
+$large-wide-column: ($large-column / 2 + $large-column) - 2 * $margin;
+$large-double-wide-column: 100% - 2 * $margin;
