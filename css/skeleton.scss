@@ -33,7 +33,7 @@ a:visited { color: #a0a; }
 
   .pull-left, .pull-right {
     @include column;
-    margin: 2px auto;
+    margin: $margin;
     width: $small-column;
   }
 
@@ -55,7 +55,7 @@ a:visited { color: #a0a; }
   }
 
   .center, p {
-    margin: 2px auto;
+    margin: $margin;
     display: block;
     width: $small-column;
   }
@@ -88,12 +88,14 @@ a:visited { color: #a0a; }
     @include column;
     width: $medium-wide-column;
     float: right;
+    clear: both;
   }
 
   .wide-right {
     @include column;
     width: $medium-wide-column;
     float: right;
+    clear: both;
   }
 
   .center, p {
@@ -137,7 +139,7 @@ a:visited { color: #a0a; }
   }
 
   .center, p {
-    margin: 2px auto;
+    margin: $margin auto;
     display: block;
     width: $large-column;
   }
