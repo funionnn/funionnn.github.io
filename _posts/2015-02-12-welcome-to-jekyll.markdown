@@ -5,6 +5,9 @@ date:   2015-02-12 15:52:14
 categories: jekyll update
 ---
 
+<div class="header" style="background-image: url('{{ site.url }}/assets/post-header.jpg');">
+</div>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae justo nisl. Sed eu ullamcorper leo. Proin vestibulum diam lobortis pulvinar imperdiet. Ut at mauris dignissim, lobortis ante convallis, pharetra diam. Cras in lobortis lectus. Cras hendrerit molestie justo, sed porta massa molestie nec. Curabitur erat quam, pharetra vitae ligula sit amet, faucibus scelerisque arcu. Aliquam ac felis sit amet quam faucibus hendrerit.
 
 Aliquam sem lorem, rhoncus ut enim non, volutpat cursus mi. In elit sapien, tempus eu scelerisque eu, pretium vel lorem. Maecenas feugiat sapien eros. Nulla consectetur eros non lorem maximus, id aliquam magna euismod. Sed et iaculis tortor. Donec et vestibulum turpis. Suspendisse commodo turpis mi, malesuada euismod lorem faucibus dictum. Nunc placerat iaculis augue sed auctor. Sed sodales ac justo non euismod.
