@@ -6,6 +6,11 @@ categories: jekyll update
 ---
 
 <div class="header" style="background-image: url('{{ site.url }}/assets/post-header.jpg');">
+  <div class="center">
+    <h1>{{ page.title }}</h1>
+  </div>
+  <p class="meta">{{ page.date | date_to_string }}</p>
+
 </div>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae justo nisl. Sed eu ullamcorper leo. Proin vestibulum diam lobortis pulvinar imperdiet. Ut at mauris dignissim, lobortis ante convallis, pharetra diam. Cras in lobortis lectus. Cras hendrerit molestie justo, sed porta massa molestie nec. Curabitur erat quam, pharetra vitae ligula sit amet, faucibus scelerisque arcu. Aliquam ac felis sit amet quam faucibus hendrerit.
