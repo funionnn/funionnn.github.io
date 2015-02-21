@@ -54,7 +54,7 @@ a:visited { color: #a0a; }
     float: right;
   }
 
-  .center, p {
+  .center {
     margin: $margin;
     display: block;
     width: $small-column;
@@ -98,7 +98,7 @@ a:visited { color: #a0a; }
     clear: both;
   }
 
-  .center, p {
+  .center {
     margin: $margin auto $margin $margin;
     display: block;
     width: $medium-column;
@@ -138,7 +138,7 @@ a:visited { color: #a0a; }
     float: right;
   }
 
-  .center, p {
+  .center {
     margin: $margin auto;
     display: block;
     width: $large-column;
