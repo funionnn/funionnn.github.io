@@ -16,10 +16,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%;
+  margin: 1em 0 0 0;
+}
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+p { margin: 0.3em 0 1em 0; }
 
 a         { color: #00a; }
 a:hover   { color: #000; }
