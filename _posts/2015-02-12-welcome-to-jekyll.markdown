@@ -16,7 +16,7 @@ categories: jekyll update
 
 <div class="center">
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae justo nisl. Sed eu ullamcorper leo. Proin vestibulum diam lobortis pulvinar imperdiet. Ut at mauris dignissim, lobortis ante convallis, pharetra diam. Cras in lobortis lectus. Cras hendrerit molestie justo, sed porta massa molestie nec. Curabitur erat quam, pharetra vitae ligula sit amet, faucibus scelerisque arcu. Aliquam ac felis sit amet quam faucibus hendrerit.
+    Terrace is an elegant, editorial, single-column Jekyll theme
   </p>
   <h2>Header 2</h2>
   <p>
@@ -24,13 +24,12 @@ categories: jekyll update
   </p>
 </div>
 <div class="pull-left">
-Pull-left
-Pellentesque consectetur ut lectus sed finibus. Aliquam erat volutpat. Aliquam risus arcu, pharetra in dui in, congue sodales purus. Quisque lorem risus, convallis sed velit vel, hendrerit ultrices diam. Quisque a lectus ac nisl commodo ullamcorper. Nullam nec purus sapien.
+  The most beautiful makeup for a woman is passion. But cosmetics are easier to buy.
+  <div class="attribution">Yves Saint Laurent</div>
 </div>
 
 <div class="pull-right">
-Pull-right
- Aliquam erat volutpat. Aliquam risus arcu, pharetra in dui in, congue sodales purus. Quisque lorem risus, convallis sed velit vel, hendrerit ultrices diam. Quisque a lectus ac nisl commodo ullamcorper. Nullam nec purus sapien.
+
 </div>
 
 <div class="center">
@@ -51,8 +50,8 @@ Pull-right
   </p>
 </div>
 <div class="pull-right">
-Pull-right
- Aliquam erat volutpat. Aliquam risus arcu, pharetra in dui in, congue sodales purus. Quisque lorem risus, convallis sed velit vel, hendrerit ultrices diam. Quisque a lectus ac nisl commodo ullamcorper. Nullam nec purus sapien.
+  Every utopia - let's just stick with the literary ones - faces the same problem: What do you do with the people who don't fit in?
+  <div class="attribution">Margaret Atwood</div>
 </div>
 <div class="wide-left">
 Pull-right

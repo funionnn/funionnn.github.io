@@ -2,4 +2,17 @@
 ---
 
 body {
-  font-family: Futura, Calibri, sans-serif;}
+  font-family: "futura-pt", "Gibson Light", Arial,sans-serif;;
+}
+
+.pull-left, .pull-right, .double-wide {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.attribution {
+  color: #444;
+  font-family: lust-didone;
+  font-size: .6em;
+  font-style: normal;
+}
