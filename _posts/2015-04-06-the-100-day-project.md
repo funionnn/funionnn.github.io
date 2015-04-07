@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "#100DaysofCode"
-date:   2015-02-12 15:52:14
-categories: jekyll update
+date:   2015-04-06
 ---
 
 <div class="header" style="background-image: url('{{ site.url }}/assets/post-header.jpg');">
