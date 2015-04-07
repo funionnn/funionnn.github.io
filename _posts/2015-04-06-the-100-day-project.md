@@ -4,7 +4,8 @@ title:  "#100DaysofCode"
 date:   2015-04-06
 ---
 
-<div class="header" style="background-image: url('{{ site.url }}/assets/post-header.jpg');">
+<!--<div class="header" style="background-image: url('{{ site.url }}/assets/default-post-image.jpg');">-->
+<div class="header" style="background-image: url('/assets/default-post-image.jpg');">
   <div class="center">
     <h1>{{ page.title }}</h1>
     <p class="meta">{{ page.date | date_to_string }}</p>
