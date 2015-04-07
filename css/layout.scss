@@ -149,7 +149,18 @@ a:visited { color: #a0a; }
 .header {
   background-repeat:no-repeat;
   background-size: 100%;
+  display: flex;
   margin: 0 0 3% 0;
   padding: $margin 0 0 0;
   width: 100%;
+
+  .post-image {
+    flex-grow: 2;
+    flex-basis: 500px;
+    img { width: 100%; }
+  }
+
+  .post-data {
+    flex-grow: 1;
+  }
 }
