@@ -151,7 +151,6 @@ a:visited { color: #a0a; }
   background-size: 100%;
   display: flex;
   margin: 0 0 3% 0;
-  padding: $margin 0 0 0;
   width: 100%;
 
   .post-image {
@@ -168,6 +167,7 @@ a:visited { color: #a0a; }
     background-repeat: repeat-y;
     background-position: center;
     margin: 30px 0;
+    padding: 0 20px;
 
     h1, p {
       background-color: #fff;
