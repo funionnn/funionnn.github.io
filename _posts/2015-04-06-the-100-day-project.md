@@ -29,7 +29,6 @@ date:   2015-04-06
 </div>
 <div class="pull-left">
   Terrace has some pretty hip pull- and inline- quotes, but the implementation is not elegant.
-  <div class="attribution">- New York Times</div>
 </div>
 <div class="center">
   <p>
