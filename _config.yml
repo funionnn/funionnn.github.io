@@ -14,7 +14,7 @@ permalink:        pretty
 title:            DATA CORRUPT
 tagline:          ''
 description:      ''
-url:              http://datacorrupt.com
+url:              http://lydia.cool
 
 author:
   name:           'Lydia Krupp Hunter'
@@ -23,7 +23,3 @@ author:
 paginate:         3
 
 # Custom vars
-version:          2.0.0
-
-github:
-  repo:           https://github.com/poole/hyde
