@@ -1,6 +1,24 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
-sass:
-  sass_dir: css/_scss
-  style: :compressed
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            DATA CORRUPT
+tagline:          ''
+description:      ''
+url:              http://datacorrupt.com
+
+author:
+  name:           'Lydia Krupp Hunter'
+  url:            https://twitter.com/funionnn
+
+paginate:         3
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/poole/hyde
