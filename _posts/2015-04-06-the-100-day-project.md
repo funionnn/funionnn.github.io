@@ -26,12 +26,12 @@ date:   2015-04-06
   <p>
     My primary ongoing side project is called <a href="https://github.com/funionnn/openmatter">Open Matter</a>. Its goal is to compile an ongoing listing of open source projects that are welcoming to designers, copywriters, OSS newcomers, and anyone else who wants to get involved in open source. It will provide clear, welcoming entry points for newcomers. The project is close to completion - minimum remaining work includes some front-end, Capistrano deployment to DigitalOcean, and SSL for login. I've been working on moving the project to DigitalOcean from Heroku in order to provide secure login for users without paying $20/month for an SSL add-on, and to say that the process has been painful would be an understatement by orders of magnitude. You'll notice that when I listed various parts of developing software that I enjoy at the beginning of this post, there was no mention of server configuration.
   </p>
-  </div>
-  <div class="pull-left">
-    Terrace has some pretty hip pull- and inline- quotes, but the implementation is not elegant.
-    <div class="attribution">- New York Times</div>
-  </div>
-  <div class="center">
+</div>
+<div class="pull-left">
+  Terrace has some pretty hip pull- and inline- quotes, but the implementation is not elegant.
+  <div class="attribution">- New York Times</div>
+</div>
+<div class="center">
   <p>
     My secondary side project is the Jekyll theme being used on this blog. It's called <a href="https://github.com/funionnn/terrace">Terrace</a>, because I bought the very overpriced .io domain terrace.io for OpenMatter, and then changed the name of Terrace to OpenMatter, and so it was only economical to name my next project, <i>Terrace</i>. I'll be using the current version on this blog as I build it out.
   </p>

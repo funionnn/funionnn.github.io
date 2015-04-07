@@ -1,3 +1,8 @@
+
+sass:
+  sass_dir: css/_scss
+  style: :compressed
+
 # Dependencies
 markdown:         redcarpet
 pygments:         true
@@ -9,7 +14,7 @@ permalink:        pretty
 title:            DATA CORRUPT
 tagline:          ''
 description:      ''
-url:              http://lydia.cool
+url:              http://datacorrupt.com
 
 author:
   name:           'Lydia Krupp Hunter'
