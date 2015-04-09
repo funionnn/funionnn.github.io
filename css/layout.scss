@@ -28,6 +28,11 @@ a:visited { color: #a0a; }
 
 @mixin column {
   margin: $margin;
+
+
+  img {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: $media-small) {
