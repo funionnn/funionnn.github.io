@@ -10,8 +10,10 @@
 
 html, body { height: 100%; }
 
+
 body {
-  background-color: #FFF;
+  font-family: proxima-nova;
+  font-weight: lighter;
   font: 14px;
 }
 
@@ -167,13 +169,10 @@ a:visited { color: #a0a; }
   }
 
   .post-data {
+    border: 8px solid #000;
     flex-grow: 1;
     text-align: center;
-    background-image: url(
-    '/assets/post-data-background.jpg');
-    background-repeat: repeat-y;
-    background-position: center;
-    margin: 30px 0;
+    margin: 30px;
     padding: 0 20px;
 
     h1, p {
@@ -182,3 +181,15 @@ a:visited { color: #a0a; }
     }
   }
 }
+
+.pull-left, .pull-right, .double-wide {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.attribution {
+  color: #444;
+  font-size: .6em;
+  font-style: normal;
+}
+
