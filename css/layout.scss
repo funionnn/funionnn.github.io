@@ -29,7 +29,7 @@ a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
 @mixin column {
-  margin: $margin;
+  margin: -4px $margin $margin $margin;
 
 
   img {
@@ -117,16 +117,17 @@ a:visited { color: #a0a; }
 
   .pull-left, .pull-right {
     width: $large-narrow-column;
+    position: absolute;
   }
 
   .pull-left {
     @include column;
-    float: left;
+    right: $large-column / 2 + 50%;
   }
 
   .pull-right {
     @include column;
-    float: right;
+    left: $large-column / 2 + 50%;
   }
 
   .double-wide {
