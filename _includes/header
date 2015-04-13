@@ -1,5 +1,5 @@
 <div class="header">
-  <div class="post-image"  style="background-image: url('{{ include.image }}');">
+  <div id="defaultimage" class="post-image" style="background-image: url('/assets/default-post-image.jpg');">
   </div>
   <div class="post-data">
     <h1>{{ page.title }}</h1>

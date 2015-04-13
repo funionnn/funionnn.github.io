@@ -1,0 +1,1 @@
+<img src='{{ include.image }}' style="display: none;" id="postimage" />

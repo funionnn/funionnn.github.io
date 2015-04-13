@@ -154,12 +154,17 @@ a:visited { color: #a0a; }
   }
 }
 
+
+.center {
+
+}
+
 .header {
   background-repeat:no-repeat;
   background-size: 100%;
   display: flex;
-  margin: 0 0 3% 0;
   width: 100%;
+
 
   .post-image {
     background-size: cover;
