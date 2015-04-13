@@ -37,11 +37,15 @@ a:visited { color: #a0a; }
   }
 }
 
+.pull-left, .pull-right {
+  @include column;
+  margin: $margin;
+  position: absolute;
+}
+
 @media (max-width: $media-small) {
 
   .pull-left, .pull-right {
-    @include column;
-    margin: $margin;
     width: $small-column;
   }
 
@@ -76,15 +80,11 @@ a:visited { color: #a0a; }
   }
 
   .pull-left {
-    @include column;
-    float: right;
-    clear: both;
+    left: $medium-column + $margin;
   }
 
   .pull-right {
-    @include column;
-    float: right;
-    clear: both;
+    left: $medium-column + $margin;
   }
 
   .double-wide {
@@ -117,16 +117,13 @@ a:visited { color: #a0a; }
 
   .pull-left, .pull-right {
     width: $large-narrow-column;
-    position: absolute;
   }
 
   .pull-left {
-    @include column;
     right: $large-column / 2 + 50%;
   }
 
   .pull-right {
-    @include column;
     left: $large-column / 2 + 50%;
   }
 
