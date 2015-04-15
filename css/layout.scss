@@ -22,7 +22,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1em 0 0 0;
 }
 
-p { margin: 0.3em 0 1em 0; }
+p {
+  margin: 0.3em 0 1em 0;
+  font-size: 17px;
+  line-height: 1.4;
+}
 
 a         { color: #00a; }
 a:hover   { color: #000; }
