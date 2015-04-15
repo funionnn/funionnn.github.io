@@ -102,6 +102,11 @@ a:visited { color: #a0a; }
     height: 150px;
   }
 
+  .post-data {
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+  }
+
   .pull-right, .pull-left, .double-wide, .wide-right, .wide-left {
     font-size: 28px;
   }
