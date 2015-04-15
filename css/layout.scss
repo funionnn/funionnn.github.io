@@ -58,7 +58,9 @@ a:visited { color: #a0a; }
   }
 
   .pull-left, .pull-right {
-    width: $small-column;
+    width: $small-column - 2 * $margin;
+    position: relative;
+    margin: $margin;
   }
 
   .double-wide {
@@ -81,7 +83,7 @@ a:visited { color: #a0a; }
   .center {
     margin: $margin;
     display: block;
-    width: $small-column;
+    width: $small-column - 2 * $margin;
   }
 }
 
