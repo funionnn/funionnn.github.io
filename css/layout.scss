@@ -107,9 +107,10 @@ a:visited { color: #a0a; }
   }
 
   .pull-left, .pull-right {
-    width: $small-column - 2 * $margin;
-    position: relative;
     margin: $margin;
+    position: relative;
+    text-align: center;
+    width: $small-column - 2 * $margin;
   }
 
   .double-wide {
