@@ -1,13 +1,45 @@
 ---
-layout: default
+layout: index
 title: lydia.cool
 ---
 
-<div id="home">
-  <h1>Blog</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="home flex flex--vertical">
+  <div class="flex flex--horizontal flex__item--fixed">
+    <div class="flex__item"></div>
+    <div class="flex__item flex__item--fixed">
+      <h1>Lydia.cool</h1>
+    </div>
+    <div class="flex__item"></div>
+  </div>
+  <div class="flex flex--horizontal flex__item">
+    <div class="flex__item--fixed flex__item flex flex--vertical">
+      <div class="border border--pink front">
+        <h2>Writing</h2>
+        <ul class="posts">
+          {% for post in site.posts %}
+            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="flex__item--fixed">
+      <div class="longshadow">
+        <a href="https://twitter.com/funionnn"><img src='/assets/twitter.svg' class="social" /></a>
+        <a href="https://github.com/funionnn"><img src='/assets/github.svg' class="social social--github" /></a>
+        <a href="https://dribbble.com/funion"><img src='/assets/dribbble.svg' class="social" /></a>
+        <a href="https://instagram.com/funionnn/"><img src='/assets/instagram.svg' class="social" /></a>
+        <a href="https://www.flickr.com/photos/fluorescence/"><img src='/assets/flickr.svg' class="social" /></a>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex--horizontal flex__item">
+    <div class="flex__item flex__item--fixed flex__item--constrain flex flex--vertical">
+      <p>
+        Lydia is a generalist on the Shopify engineering team. She works on projects like building internal tools, growing internal communication and engineering culture, and developing the Shopify R&D onboarding program. Her free time is distributed across coding, illustration, design, photography, fiction reading, and video games, and she loves every step in the software development process equally.
+      </p>
+    </div>
+    <div class="flex__item flex__item--fixed flex flex--vertical">
+      <img src='/assets/lydia.jpg' class="profile" />
+    </div>
+  </div>
 </div>

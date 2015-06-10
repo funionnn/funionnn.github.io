@@ -1,7 +1,7 @@
 <div class="header">
-  <div id="defaultimage" class="post-image" style="background-image: url('/assets/default-post-image.jpg');">
+  <div id="defaultimage" class="post__image" style="background-image: url('/assets/default-post__image.jpg');">
   </div>
-  <div class="post-data">
+  <div class="post__data">
     <h1>{{ page.title }}</h1>
     <p class="meta">{{ page.date | date_to_string }}
   </div>

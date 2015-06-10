@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- typekit -->
+    <script src="//use.typekit.net/uqz2xqn.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-51262806-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+    <script>
+      window.onload = function(){
+        var newimage;
+        newimage = document.getElementById("postimage").src;
+        newimage = "background-image: url(" + newimage + ");";
+        document.getElementById("defaultimage").style.cssText = newimage;
+      };
+    </script>
+  </head>
+  <body class="index">
+    {{ content }}
+  </body>
+</html>

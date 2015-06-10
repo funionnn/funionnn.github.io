@@ -1,1 +1,1 @@
-<div class="pull-{{ include.side }}">
+<div class="pull--{{ include.side }}">
