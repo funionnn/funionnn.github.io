@@ -295,18 +295,6 @@ a:visited { color: #a0a; }
   flex-basis: 350px;
 }
 
-.social {
-  width: 70px;
-  height: 70px;
-  margin: 20px;
-}
-
-.profile {
-  border-radius: 150px;
-  max-width: 200px;
-  margin: 40px;
-}
-
 /********
 *********
 ********* Index page
@@ -359,6 +347,18 @@ a:visited { color: #a0a; }
   border: 8px solid #FFDBDB;
 }
 
+.social {
+  width: 70px;
+  height: 70px;
+  margin: 20px;
+}
+
+.profile {
+  border-radius: 150px;
+  max-width: 200px;
+  margin: 40px;
+}
+
 .front {
   z-index: 1;
 }
@@ -391,6 +391,13 @@ a:visited { color: #a0a; }
     .longshadow {
       flex-wrap: wrap;
       margin: 20px 20px 60px 20px;
+      justify-content: space-around;
     }
+  }
+
+  .social {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
   }
 }
