@@ -4,16 +4,14 @@ title: lydia.cool
 ---
 
 <div class="home flex flex--vertical">
-  <div class="flex flex--horizontal flex__item--fixed">
-    <div class="flex__item"></div>
-    <div class="flex__item flex__item--fixed">
+  <div id="row-1" class="flex flex__item">
+    <div class="flex__item">
       <h1>Lydia.cool</h1>
     </div>
-    <div class="flex__item"></div>
   </div>
-  <div class="flex flex--horizontal flex__item">
+  <div id="row-2" class="flex flex--horizontal flex__item">
     <div class="flex__item--fixed flex__item flex flex--vertical">
-      <div class="border border--pink front">
+      <div class="border border--pink front-front-front">
         <h2>Writing</h2>
         <ul class="posts">
           {% for post in site.posts %}
@@ -22,24 +20,28 @@ title: lydia.cool
         </ul>
       </div>
     </div>
-    <div class="flex__item--fixed">
-      <div class="longshadow">
-        <a href="https://twitter.com/funionnn"><img src='/assets/twitter.svg' class="social" /></a>
-        <a href="https://github.com/funionnn"><img src='/assets/github.svg' class="social social--github" /></a>
-        <a href="https://dribbble.com/funion"><img src='/assets/dribbble.svg' class="social" /></a>
-        <a href="https://instagram.com/funionnn/"><img src='/assets/instagram.svg' class="social" /></a>
-        <a href="https://www.flickr.com/photos/fluorescence/"><img src='/assets/flickr.svg' class="social" /></a>
+    <div class="flex__item flex__item--fixed front">
+      <div class="longshadow front">
+        <div><a href="https://twitter.com/funionnn"><img src='/assets/twitter.svg' class="social" /></a></div>
+        <div><a href="https://github.com/funionnn"><img src='/assets/github.svg' class="social social--github" /></a></div>
+        <div><a href="https://dribbble.com/funion"><img src='/assets/dribbble.svg' class="social" /></a></div>
+        <div><a href="https://instagram.com/funionnn/"><img src='/assets/instagram.svg' class="social" /></a></div>
+        <div><a href="https://www.flickr.com/photos/fluorescence/"><img src='/assets/flickr.svg' class="social" /></a></div>
       </div>
     </div>
   </div>
-  <div class="flex flex--horizontal flex__item">
+  <div id="row-3" class="flex flex--horizontal flex__item">
     <div class="flex__item flex__item--fixed flex__item--constrain flex flex--vertical">
-      <p>
-        I like internet.
-      </p>
+      <div class="front-front-front">
+        <p>
+          I like internet.
+        </p>
+      </div>
     </div>
     <div class="flex__item flex__item--fixed flex flex--vertical">
-      <img src='/assets/lydia.jpg' class="profile" />
+      <div class="front-front-front">
+        <img src='/assets/lydia.jpg' class="profile" />
+      </div>
     </div>
   </div>
 </div>

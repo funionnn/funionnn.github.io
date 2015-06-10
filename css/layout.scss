@@ -10,6 +10,7 @@
 
 html, body {
   height: 100%;
+  width: 100%;
   margin: 0 !important;
   box-sizing: border-box;
 }
@@ -314,6 +315,7 @@ div {
 
 .longshadow {
   border: 8px solid #e0e0dc;
+  display: flex;
   margin: 20px 20px 80px 150px;
   @include longshadow(#E0E0DC);
 }
@@ -330,10 +332,15 @@ div {
   h1 {
     font-size: 120px;
     margin: 0;
+    text-align: center;
   }
 
   ul {
     list-style-type: none;
+  }
+
+  p {
+    font-size: 36px;
   }
 }
 
@@ -357,4 +364,38 @@ div {
 }
 
 
+@media (max-width: $media-small) {
+  .home {
+    display: block;
 
+    h1 {
+      font-size: 15vw;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    .flex--horizontal {
+       flex-basis: 100%;
+    }
+
+    .flex__item, .flex__item--fixed {
+      padding: 20px 10px;
+     flex-basis: 100%;
+    }
+
+    .longshadow {
+      flex-wrap: wrap;
+      margin: 20px 20px 60px 20px;
+    }
+  }
+}
+
+.front {
+  z-index: 1;
+}
+
+.front-front-front {
+  z-index: 10;
+}
