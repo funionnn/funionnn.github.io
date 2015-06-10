@@ -307,11 +307,11 @@ a:visited { color: #a0a; }
   margin: 40px;
 }
 
-/*****
-div {
-  border: 2px solid #fabcab;
-}
-*/
+/********
+*********
+********* Index page
+*********
+********/
 
 .longshadow {
   border: 8px solid #e0e0dc;
@@ -326,7 +326,7 @@ div {
   padding: 20px;
 }
 
-.home {
+.index__content {
   height: 100%;
 
   h1 {
@@ -363,9 +363,12 @@ div {
   z-index: 1;
 }
 
+.front-front {
+  z-index: 10;
+}
 
 @media (max-width: $media-small) {
-  .home {
+  .index__content {
     display: block;
 
     h1 {
@@ -390,12 +393,4 @@ div {
       margin: 20px 20px 60px 20px;
     }
   }
-}
-
-.front {
-  z-index: 1;
-}
-
-.front-front-front {
-  z-index: 10;
 }
