@@ -24,4 +24,4 @@ paginate:         3
 
 gems:
   - jemoji
-# Custom vars
+  - octopress-autoprefixer
