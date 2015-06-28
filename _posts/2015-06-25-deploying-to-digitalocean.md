@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Deploy your Rails app to DigitalOcean with Capistrano"
-date:   2015-06-13
+date:   2015-06-27
 comments: on
 ---
+{% include header-image image='/assets/digitalocean.jpg' %}
 
 I recently deployed the project I've been working on to DigitalOcean. I'd only ever used Heroku before, and there was definitely a learning curve. The simplicity of Heroku is fantastic, but it definitely comes at a cost (the cost being money). My specific reason for setting up this project on DigitalOcean was that I needed to use an SSL certificate, and the Heroku add-ons that allow you to do this are pretty pricey.
 
