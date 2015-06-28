@@ -29,12 +29,18 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin: 0.3em 0 1em 0;
   font-size: 17px;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
+
+pre {
+  border-left: 3px solid #000;
+  margin: 20px 0 20px 15px;
+  padding-left: 15px;
+}
 
 @mixin column {
   margin: -4px $margin $margin $margin;
@@ -211,6 +217,11 @@ a:visited { color: #a0a; }
 
   h1 {
     font-size: 3vw;
+  }
+
+  h2 {
+    font-size: 2vw;
+    margin: 40px 0 20px 0;
   }
 
   .pull--right, .pull--left, .double-wide, .wide--right, .wide--left {

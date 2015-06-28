@@ -5,7 +5,7 @@ sass:
 
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:         pygments
 
 # Permalinks
 permalink:        pretty
@@ -22,4 +22,6 @@ author:
 
 paginate:         3
 
+gems:
+  - jemoji
 # Custom vars
