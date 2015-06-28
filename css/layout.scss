@@ -70,6 +70,23 @@ pre {
   position: absolute;
 }
 
+.navigation {
+  background: #000;
+  background-image: url('/assets/arrow-inset.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px 0 5px 0;
+  padding: 5px;
+  text-align: center;
+  width: 100px;
+
+    a {
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+}
 
 .header {
   background-repeat:no-repeat;
