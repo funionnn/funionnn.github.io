@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction to Git"
-date:   2014-04-14
+date:   2016-04-16
 comments: on
 ---
 {% include header-image image='/assets/git-intro.jpg' %}
