@@ -81,7 +81,7 @@ git@github.com:funionnn/flawless.git flawless-app
 
 Before you make any changes, you need to create a *feature branch*. Branching is a big part of the Git workflow - it's the first step you'll take every time you start working on something new in your codebase. 
 
-First, make sure that you're branching from the latest version of Master. You want to make sure that your computer knows locally about all the latest changes. In the command line:
+First, make sure that you're branching from the latest version of Master. You want to make sure that your computer knows locally about all the latest changes. Click the 'Branch' icon in the desktop client to create a new branch. In the command line:
 
 ```
 git pull origin master
