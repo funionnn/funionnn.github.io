@@ -8,7 +8,7 @@ comments: on
 
 # Introduction to Git
 
-This post is an adaptation of an introduction to Git that I put together for [Flawless Hacks](flawlesshacks.com). Check out the [companion repository](github.com/funionnn/flawless)!
+This post is an adaptation of an introduction to Git that I put together for [Flawless Hacks](http://flawlesshacks.com). Check out the [companion repository](http://github.com/funionnn/flawless)!
 
 ## Git vs GitHub
 
